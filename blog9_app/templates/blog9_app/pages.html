@@ -1,0 +1,49 @@
+{% extends './generalheaderfotter.html' %}
+{% load static %}
+{% block title %} Page{%endblock%}
+{%block content%} 
+<!-- <div class="classs3pa"> -->
+    <!-- <button onclick="myShow.previous()">Previous</button> -->
+    <span class="w3-xxlarge w3-text-white w3-blue w3-block w3-mobile">OUR PROJECT</span>
+<div class="w3-grayscale-man" style="width: 100%;height:400px;background-color:lightblue;" >
+
+     <img class="nature w3-image w3-animate-zoom" src="{% static 'images/project4.png'%}" style="width:100%;height: 400px;">
+    
+    <img class="nature w3-animate-left w3-mobile" src="{% static 'images/project5.png'%}" style="width:100%;height: 400px;">
+    <img class="nature w3-animate-zoom w3-mobile" src="{% static 'images/project6.png'%}" style="width:100%;height: 400px;">
+    <img class="nature w3-animate-right w3-mobile" src="{% static 'images/project5.png'%}" style="width:100%;height: 400px;">
+
+    <img class="nature w3-image w3-animate-zoom" src="{% static 'images/project4.png'%}" style="width:100%;height: 400px;">
+    
+    <img class="nature w3-animate-left w3-mobile" src="{% static 'images/project1.png'%}" style="width:100%;height: 400px;">
+    <img class="nature w3-animate-zoom w3-mobile" src="{% static 'images/project2.png'%}" style="width:100%;height: 400px;">
+    <img class="nature w3-animate-right w3-mobile" src="{% static 'images/project3.png'%}" style="width:100%;height: 400px;"> -->
+   
+</div>
+
+<!-- ============================services=================================== -->
+
+<!-- <span class="w3-xxlarge w3-text-white w3-blue w3-block w3-mobile">OUR SERVICES</span>
+<div style="width: 100%;height:400px;background-color:lightblue;">
+
+    <img class="nature1 w3-image w3-animate-fade" src="{% static 'images/service1.png'%}" style="width:100%;height: 400px;">
+    
+    <img class="nature1 w3-animate-fading w3-mobile" src="{% static 'images/service2.png'%}" style="width:100%;height: 400px;">
+    <img class="nature1 w3-animate-fading w3-mobile" src="{% static 'images/service3.png'%}" style="width:100%;height: 400px;">
+    <img class="nature1 w3-animate-fading w3-mobile" src="{% static 'images/service4.png'%}" style="width:100%;height: 400px;">
+
+    <img class="nature1 w3-image w3-animate-zoom" src="{% static 'images/service5.png'%}" style="width:100%;height: 400px;">
+    
+    <img class="nature1 w3-animate-left w3-mobile" src="{% static 'images/service6.png'%}" style="width:100%;height: 400px;">
+    <img class="nature1 w3-animate-zoom w3-mobile" src="{% static 'images/service7.png'%}" style="width:100%;height: 400px;">
+    <img class="nature w3-animate-right w3-mobile" src="{% static 'images/services1.png'%}" style="width:100%;height: 400px;"> -->
+   
+<!-- </div> --> 
+
+<!-- ======================================end of services======================== -->
+<script>   
+ w3.slideshow(".nature",1999);
+ w3.slideshow(".nature1",1000);
+</script>
+
+{%endblock%}

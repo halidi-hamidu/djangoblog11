@@ -1,0 +1,104 @@
+/* {% load static %} */
+body hr{
+    padding: 0px;
+    margin: auto;
+}
+.w3-row {
+    height: 40px;
+    width: 100%;
+    background-color:#3399ff;
+    color: #ffffff;
+    padding: 10px;
+}
+.w3-row .left{
+    height: 40px;
+    width: 60%;
+    /* margin-left: 100px; */
+   
+}
+.w3-row .w3-right{
+    height: 40px;
+     width: 40%; 
+   
+}
+/* .w3-row  .w3-paddin-bottom{ */
+  
+/* } */ 
+.class2{
+    width: 100%;
+    background-color: #3399ff;
+}
+.class2 .w3-col a{
+    text-decoration: none;
+}
+/* .classstick{
+    position: fixed;
+    top: 100px;
+} */
+.footer{
+    /* height: 400px; */
+    width: 100%;
+    background-color:#3399ff;
+    color: darkblue;
+    padding: 20px;
+    /* height: 300px; */
+    /* background-color: #3399ff; */
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.class3{
+    height: 600px;
+    background-image: url("../images/h1_hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-size: 100px; */
+}
+.a{
+    height: 600px;
+    background-image: url("../images/member3.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-size: 100px; */
+}
+.b{
+    height: 600px;
+    background-image: url("../images/member2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-size: 100px; */
+}
+.c{
+    height: 600px;
+    background-image: url("../images/blog2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-size: 100px; */
+}
+.d{
+    height: 600px;
+    background-image: url("../images/blog1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-size: 100px; */
+}
+/* .class8 .w3-row-padding{
+    height: 800px;
+    width: 100%;
+    background-color: #3399ff;
+} */
+.class3about{
+    height: 600px;
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 

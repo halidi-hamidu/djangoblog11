@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <title>
+        Documents | {% block title %}{% endblock%}
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/w3file.css' %}">
+        <link rel="stylesheet" href="{% static 'font/css/font-awesome.min.css' %}">
+        <script src="{% static 'js/w3.js'%}"></script>
+        <!-- <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}"> -->
+        <link rel="stylesheet" href="{% static 'css/file3.css' %}">
+      </head>
+    <body>
+        <!-- =============================HEADER SECTION========================================== -->
+     <div class="w3-row w3-hide-small w3-text-white">
+      <div class="w3-left left ">
+        <span class="w3-padding">+(123) 1234-567-8901</span>
+        <span class="w3-padding">info@domain.com</span>
+        <span> Mon - Sat 8:00 - 17:30, Sunday - CLOSED</span>
+      </div>
+       <div class="w3-right right w3-center  right w3-hide-small">
+         <span class="fa fa-twitter w3-padding"></span>
+         <span class="fa fa-facebook w3-padding"></span>
+         <span class="fa fa-in w3-large w3-padding">in</span>
+         <span class="fa fa-google w3-padding"></span>
+       </div>
+
+     </div>
+     <hr/>
+
+
+     <div class="w3-row-padding class2 w3-text-white">
+       <div class="w3-col m3 w3-center w3-padding-16">
+         <img src="{% static 'images/constructionlogo.png'%}" alt="constructionlogo.">
+
+       </div>
+       <div class="w3-col m7 w3-medium w3-center w3-padding-32 w3-bar classstick">
+         <a href="{% url 'home'%}" class="w3-padding w3-mobile w3-bar-item">Home</a>
+         <a href="{% url 'About' %}" class="w3-padding w3-mobile w3-bar-item">About</a>
+         <a href="{% url 'project' %}" class="w3-padding w3-mobile w3-bar-item">Project</a>
+         <a href="{% url 'services' %}" class="w3-padding w3-mobile w3-bar-item">Services</a>
+         <a href="{% url 'blog' %}" class="w3-padding w3-mobile w3-bar-item">Blog</a>
+         <a href="{% url 'pages' %}" class="w3-padding w3-mobile w3-bar-item">Pages</a>
+         <a href="{% url 'contact' %}" class="w3-padding w3-mobile w3-bar-item" >Contact</a>
+
+       </div>
+       <div class="w3-col m2 w3-padding-32">
+         <button class="w3-blue w3-large w3-center w3-hide-small">CONTACT NOW</button>
+       </div>
+     </div>
+
+
+        <!-- ===========================EBD OF HEADER SECTIONS====================================== -->
+        {% block content %}{%endblock%}
+
+<!-- ===================================FOOTER SECTION===================================== -->
+<div class="footer w3-mobile w3-text-white">
+  <div class="w3-row-padding w3-mobile">
+    <div class="w3-col m4 w3-mobile">
+      <img src="{% static 'images/constructionlogo.png'%}" alt="Construction"> <br> <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iste cupiditate voluptatum minima distinctio beatae </p>
+    </div>
+    <div class="w3-col m4 w3-text-white w3-mobile">
+      <span class="w3-xxlarge ">Quick Links</span>
+      <br> <br>
+      <ul class="w3-ul">
+
+       <li><a href="#" class="w3-padding">About</a></li>
+
+       <li><a href="#" class="w3-padding">Services</a></li>
+
+       <li><a href="#" class="w3-padding" >Contact</a></li>
+
+      </ul>
+      <br> <br>
+    </div>
+    <div class="w3-col m4 w3-text-white w3-mobile">
+      <h3 class="w3-xxlarge">Contact</h3> <br>
+      <ul> <br>
+        <li>Phone: +95 (0) 123 456 789</li>
+         <li> Cell: +95 (0) 123 456 789</li>
+         <li>198 West 21th Street, Suite 721 New York,NY 10010</li>
+      </ul>
+      <input type="text" placeholder="Email">
+      <a href="" class="w3-button w3-blue w3-hover-white">SIGN UP</a>
+      <!-- <<button class="w3-button">SIGN UP</button>> -->
+    </div>
+  </div>
+</div>
+
+<!-- ================================END OF FOOTER SECTION===================================== -->
+    </body>
+</html>
